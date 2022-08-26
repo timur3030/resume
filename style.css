@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: #f1f1f1;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+}
+
+p {
+  font-style: italic;
+}
+
+table {
+  border: solid #95b194 4px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color:rgb(1, 81, 16)
+}
+
+.info-text {
+  color: #86898f;
+}
+
+.card {
+  /* border: ; */
+  border-radius: 15px;
+  background-color: #eafee9;
+  margin: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.img {
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+  max-width: 230px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:active {
+  color: blue;
+}
+
+.btn {
+  background: #4f674e;
+  padding: 15px 20px;
+  color: #fff;
+  border: none black 1px solid;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  color: #2b3a58;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: solid 1px #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  /* width: calc(50% - 20px); */
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+@media (max-width: 750px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .info-text {
+    margin: auto;
+  }
+
+  .form-row {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
